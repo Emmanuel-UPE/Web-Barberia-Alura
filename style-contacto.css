@@ -1,0 +1,147 @@
+body{ /*Selector para body"*/
+    font-family: Georgia;
+}
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /*Centramos un div*/
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{ /*Capturamos cuando se pasa sobre un elemento*/
+    color: rgba(255, 111, 0, 0.908);
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto; 
+}
+form{
+    margin: 40px 0; 
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-texto{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+fieldset select {
+    margin: 0 0 10px 0;
+}
+.boton-enviar{
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.boton-enviar:hover{ /*Capturamos cuando se pasa sobre un elemento*/
+    background: red;
+    border-radius: 20px;
+    font-size: 22px;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px 0px;
+}
+thead{
+    background: gray;
+    color: white;
+    font-weight: bold;
+
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.productos li:hover{ /*Capturamos cuando se pasa sobre un elemento*/
+    border: 2px dotted rgba(255, 111, 0, 0.908);
+}
+.productos li:active{ /*Capturamos cuando se toca un elemento*/
+    border: 4px dashed green;
+    border-radius: 50px;
+}
+.productos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.productos li:active h2{ /*Capturamos cuando se toca un elemento*/
+    font-size: 40px;
+}
+.producto-descripcion{
+    font-size: 16px;
+}
+.producto-precio{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.productos li:active .producto-precio{ /*Capturamos cuando se toca un elemento*/
+    font-size: 30px;
+}
+
+
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 30px;
+}
+.leyenda-footer{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px;
+}

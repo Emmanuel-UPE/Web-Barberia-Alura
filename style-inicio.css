@@ -1,0 +1,87 @@
+body{ /*Selector para body"*/
+    font-family: Georgia;
+}
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /*Centramos un div*/
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner_section{ /*Selector para etiqueta con class = "banner_section"*/
+    padding: 0px;
+    margin: 0%;
+    background: #A219CB;
+}
+#img_banner{ /*Selector para etiqueta con id = "img_banner"*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.principal{ /*Selector para etiqueta con class = "principal"*/
+    background: #FE2E64;
+    padding: 10px;
+}
+h2{ /*Selector para etiquetas h2*/
+    font-size: 35px;
+    text-align: center;
+    color: #2E2E2E;
+}
+p{ /*Selector para etiquetas p*/
+    font-size: 20px;
+    text-align: justify;
+    color: #2E2E2E;
+}
+#mision{ /*Selector para etiqueta con id = "mision"*/
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.diferenciales{ /*Selector para etiqueta con class = "diferenciales"*/
+    padding: 10px;
+    background: #ed1ab5;
+}
+h3{ /*Selector para etiquetas h3*/
+    margin-left: 10%;
+    text-align: left;
+    font-size: 30px;
+}
+ul{
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    margin-right: 5%;
+}
+.items{ /*Selector para etiquetas con class = "items"*/
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+}
+#img_diferencial{ /*Selector para etiqueta con id = "img_diferencial"*/
+    width: 30%;
+}
+
+
