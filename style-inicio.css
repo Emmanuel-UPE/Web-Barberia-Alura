@@ -84,4 +84,14 @@ ul{
     width: 30%;
 }
 
-
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 30px;
+}
+.leyenda-footer{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px;
+}
