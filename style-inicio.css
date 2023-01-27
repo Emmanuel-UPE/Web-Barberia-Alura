@@ -90,6 +90,7 @@ footer{
     padding: 30px;
 }
 .leyenda-footer{
+    text-align: center;
     color: aliceblue;
     font-style: italic;
     font-size: 20px;
