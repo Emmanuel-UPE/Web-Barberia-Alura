@@ -33,7 +33,7 @@ nav a:hover{ /*Capturamos cuando se pasa sobre un elemento*/
 
 main{
     width: 940px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 form{
     margin: 40px 0; 
@@ -87,52 +87,6 @@ td,th{
     border: 1px solid black;
     padding: 8px 15px;
 }
-
-
-.productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-.productos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 10px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
-
-}
-.productos li:hover{ /*Capturamos cuando se pasa sobre un elemento*/
-    border: 2px dotted rgba(255, 111, 0, 0.908);
-}
-.productos li:active{ /*Capturamos cuando se toca un elemento*/
-    border: 4px dashed green;
-    border-radius: 50px;
-}
-.productos h2{
-    font-weight: bold;
-    font-size: 30px;
-}
-.productos li:active h2{ /*Capturamos cuando se toca un elemento*/
-    font-size: 40px;
-}
-.producto-descripcion{
-    font-size: 16px;
-}
-.producto-precio{
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-}
-.productos li:active .producto-precio{ /*Capturamos cuando se toca un elemento*/
-    font-size: 30px;
-}
-
-
 
 footer{
     text-align: center;

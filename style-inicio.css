@@ -13,7 +13,7 @@ header{
 nav{
     position: absolute;
     top: 110px;
-    right: 0px;
+    right: 0;
 }
 nav li{
     display: inline;
@@ -26,19 +26,25 @@ nav a{
     color: black;
     text-decoration: none;
 }
+nav a:hover{ /*Capturamos cuando se pasa sobre un elemento*/
+    color: rgba(255, 111, 0, 0.908);
+    text-decoration: underline;
+}
+
+main{
+    width: 100%;
+}
 
 .banner_section{ /*Selector para etiqueta con class = "banner_section"*/
-    padding: 0px;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     background: #A219CB;
 }
 #img_banner{ /*Selector para etiqueta con id = "img_banner"*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin: auto;
+    width: 99%;
 }
-
 
 .principal{ /*Selector para etiqueta con class = "principal"*/
     background: #FE2E64;
